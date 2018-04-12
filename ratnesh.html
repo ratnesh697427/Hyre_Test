@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hyre Coding Challenge</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+  	<p style="font-size:13px">Enter amount of seconds.</p>
+  	<input id = "timeAmount" type = "number" placeholder="Seconds" onkeypress='validate(event)'  min = 0; /><br><br>
+  	<button id = "buttonValue" data-label="do it!" onclick="asyncCall();">do it!</button>
+  	<div class="target">
+  		<p id="demo"></p>
+  	</div>
+  	<div class="error">
+  		<p id= "errorMsg" style="color: red;"></p>
+  	</div>
+  </body>
+</html>
